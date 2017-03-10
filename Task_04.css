@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.outside{
+    position: absolute;
+    border:1px solid gainsboro;
+    width: 100%;
+    height: 100%;
+}
+.inside{
+    position: relative;
+    margin-top: -100px;
+    margin-left: -200px;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    background-color: #cccccc;
+}
+.circle{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #fc0;
+}
+.topleft{
+    border-bottom-right-radius: 50px;
+
+}
+.bottomright{
+    margin-left: -50px;
+    border-top-left-radius: 50px;
+    top: 50%;
+    left: 100%;
+}
